@@ -1,7 +1,5 @@
 import numpy as np
 
-
-
 class RandomWalk():
     def __init__(self, maxSteps = 100, fromCoinToss = False):
         self.maxSteps = maxSteps
