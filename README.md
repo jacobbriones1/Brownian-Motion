@@ -1,2 +1,2 @@
-# Brownian-Motion
-From Random Walks to Brownian Motion.
+# Brownian-Motion, Wiener-Processes, and Random Walks
+
