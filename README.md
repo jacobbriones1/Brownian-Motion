@@ -1,2 +1,1 @@
-# Brownian-Motion, Wiener-Processes, and Random Walks
-
+# Brownian-Motion and Friends
