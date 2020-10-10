@@ -30,7 +30,7 @@ class RandomWalk():
             self.movingAvg.append(temp)
         return self.movingAvg
         
-
+    # Simulate The Random Walk Object
     def simulate(self):
         from matplotlib.animation import FuncAnimation
         import matplotlib.pyplot as plt
@@ -70,8 +70,6 @@ class RandomWalk():
                             horizontalalignment='left',
                             verticalalignment='top',
                             transform=ax.transAxes)
-            
-            
             
             def init():
                 ax.set_ylim(min(np.min(avgs),np.min(self.States)-1), max(np.max(avgs),np.max(self.States)+1))
@@ -121,7 +119,3 @@ class RandomWalk():
                     self.steps.append(np.random.choice(self.possibleSteps))
                     Sum += self.steps[i]
                     self.States.append(Sum)
-                
-            
-            
-            
