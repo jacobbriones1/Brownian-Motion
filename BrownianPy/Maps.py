@@ -1,4 +1,5 @@
 import numpy as np
+import string
 
 def float2HT(x: float):
     if 0 <= x and x < 0.5:
@@ -12,4 +13,7 @@ def float2HT(x: float):
 
 def randFloats(length: int):
     return np.random.rand(length)
-    
+
+def subscr(n: int):
+    SUB = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
+    return str(n).translate(SUB)
